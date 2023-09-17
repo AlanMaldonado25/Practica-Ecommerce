@@ -31,8 +31,8 @@
         </aside>
         <main>
             <h2 class="titulo-principal ">Carrito</h2>
-            <div class="contenedor-carrito disabled">
-                <p class="carrito-vacio">Tu carrito esta vacio 😔</p>
+            <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio 😔</p>
+            <div id="carrito-productos" class="contenedor-carrito disabled">
                 <div class="carrito-productos ">
                     <div class="carrito-prod">
                         <img class="carrito-prod-imagen" src="../img/abrigos/01.jpg" alt="">
@@ -75,7 +75,7 @@
                         <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i></button>
                     </div>
                 </div>
-                <div class="carrito-acciones">
+                <div id="carrito-acciones" class="carrito-acciones">
                     <div class="carrito-acciones-izq">
                         <button class="carrito-acciones-vaciar">Vaciar Carrito</button>
                     </div>
@@ -88,8 +88,9 @@
                     </div>
                 </div>
             </div>
-            <p class="carrito-comprado disabled">Muchas gracias por la compra!😊</p>
+            <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por la compra!😊</p>
         </main>
     </div>
+    <script src="../js/carrito.js"></script>
 </body>
 </html>
